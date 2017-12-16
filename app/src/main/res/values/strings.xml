@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="start_quiz"> START QUIZ </string>
+    <string name="check_high_scores"> Check High Scores </string>
+    <string name="help"> Answer the questions with a TRUE/FALSE.\n
+    Answer as many questions as you can correctly, and put your name on the high scores list! \n
+        You can either press the button or tilt your phone back on the left for true or right for false</string>
+    <string name="how_to_play"> HOW TO PLAY </string>
+    <string name="add_questions"> ADD QUESTIONS </string>
+    <string name="points_listview"> POINTS </string>
+    <string name="name_listview"> NAME </string>
+    <string name="rank_listview"> RANK </string>
+    <string name="display_score"> CONGRATULATIONS!\n
+    Your Score was</string>
+    <string name="high_score"> CONGRATULATIONS!\n
+    \n
+    It is a High Score.</string>
+    <string name="highland_score"> CONGRATULATIONS! It is a High Score.</string>
+    <string name="option_prompt">Select the answer</string>
+    <string name="title_activity_main_add_hscore">activity_main_add_hscore</string>
+    <string name="submit_high_score">SUBMIT</string>
+    <string name="name_add_high_score">Name</string>
+    <string name="enter_name_add_highscore">Enter Your Name</string>
+    <string name="true_add_question">True</string>
+    <string name="submit_add_question">SUBMIT</string>
+    <string name="select_the_answer_add_question">Select the Answer</string>
+    <string name="question_add_question">Question</string>
+    <string name="enter_your_question_add_question">Enter your Question</string>
+    <string name="false_add_question">False</string>
+    <string name="next_end_game">NEXT</string>
+    <string name="final_score_end_game">Final Score</string>
+    <string name="running_score_quiz_play">Running Score…</string>
+    <string name="question_quiz_play">Question</string>
+    <string name="your_running_score_is_quiz_play">Your Running Score is…</string>
+</resources>

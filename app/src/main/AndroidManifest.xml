@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.devan.quizgame">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_action_gamepad"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_action_gamepad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuizGame">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheckHighScore"
+            android:label="@string/check_high_scores" />
+
+        <activity android:name=".EndGame" />
+
+        <activity
+            android:name=".AddHighScore"
+            android:label="Add Name to High Scores List" />
+
+        <activity android:name=".QuizPlay" />
+
+        <activity
+            android:name=".AddQuestion"
+            android:label="Add Question" />
+    </application>
+
+</manifest>
